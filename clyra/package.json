@@ -1,0 +1,41 @@
+{
+  "name": "clyra",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ag-grid-community/client-side-row-model": "^32.3.9",
+    "@ag-grid-community/core": "^32.3.9",
+    "@ag-grid-community/react": "^32.3.9",
+    "@supabase/supabase-js": "^2.84.0",
+    "@tailwindcss/vite": "^4.1.17",
+    "ag-grid-community": "^34.3.1",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.554.0",
+    "papaparse": "^5.5.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.9.6",
+    "recharts": "^3.5.1",
+    "tailwindcss": "^4.1.17",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "shadcn-ui": "^0.9.5",
+    "vite": "^6.3.5"
+  }
+}
